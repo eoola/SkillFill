@@ -1,7 +1,18 @@
-.Header {
+
+/* .Header {
+    width: 100%;
+    height: 92px;
     border: 1px solid #000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
+.Header {
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */

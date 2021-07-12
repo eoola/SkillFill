@@ -13,12 +13,22 @@ class Header extends React.Component {
         return (
             <div className="Header">
                 <Logo></Logo>
+                {/* <div className="top-nav">
+                    
+                    <a href="/all-categories">All Categories</a>
+                    <a href="/creative-art">Creative Art</a>
+                    <a href="/music">Music</a>
+                    <a href="/instruments">Instruments</a>
+                    <a href="/visual">Visual</a>
+                    <a href="/digital-art">Digital Art</a>
+                    <a href="/photography">Photography</a>
+                </div> */}
                 <div className="Search">
                     <Search></Search>
                 </div>
-                <div>
+                {/* <div>
                     <Profile></Profile>
-                </div>
+                </div> */}
             </div>
         )
     }
