@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
-import GlobalNav from '../../Sidebar/Sidebar';
+import GlobalNav from '../../Navbar/Navbar';
 import All from '../categories/All';
 import CreativeArt from '../categories/creativeArt';
 import Music from '../categories/Music';
