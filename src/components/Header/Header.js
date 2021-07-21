@@ -1,8 +1,11 @@
 import React from 'react';
 import Logo from './Logo';
-import "./Header.css"
+import "./Header.css";
 import Search from './Search/Search';
 import Profile from '../Profile/Profile';
+import SignUpBtn from './SignUpBtn/SignUpBtn';
+import { Link } from 'react-router-dom';
+
 
 /**
  * This is the header component
@@ -15,9 +18,11 @@ class Header extends React.Component {
                 <Logo></Logo>
                 <div className="Search">
                     <Search></Search>
+                    
                 </div>
+                <Link to="/signup" id="signup">Register</Link>
                 <div>
-                    <Profile></Profile>
+                  
                 </div>
             </div>
         )
