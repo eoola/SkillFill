@@ -1,9 +1,8 @@
 import React from 'react';
 
-import Search from '../Header/Search/Search.js';
+
 import "./SignUp.css";
 
-import Logo from '../Header/Logo.js';
 
 /**
  * This is the header component
@@ -13,10 +12,8 @@ class SignUp extends React.Component {
     render() {
         return (
             <div className="SignUp">
-                <Logo></Logo>
-                <div className="Search">
-                    <Search></Search>
-                </div>
+               
+              
                 <br></br>
                 <br></br>
                 <br></br>

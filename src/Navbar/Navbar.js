@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import { withRouter } from 'react-router-dom';
-import Logo from '../components/Header/Logo';
+
 import Header from '../components/Header/Header';
 
 const GlobalNavInner = function GlobalNav(props) {
