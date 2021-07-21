@@ -2,7 +2,7 @@ import React from 'react';
 
 import Search from '../Header/Search/Search.js';
 import "./SignUp.css";
-import Profile from '../Profile/Profile';
+
 import Logo from '../Header/Logo.js';
 
 /**

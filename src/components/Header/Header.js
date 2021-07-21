@@ -1,9 +1,9 @@
 import React from 'react';
 import Logo from './Logo';
 import "./Header.css";
-import Search from './Search/Search';
 import Profile from '../Profile/Profile';
-import SignUpBtn from './SignUpBtn/SignUpBtn';
+import SignUp from '../SignUp/SignUp';
+import Search from './Search/Search';
 import { Link } from 'react-router-dom';
 
 
@@ -16,14 +16,12 @@ class Header extends React.Component {
         return (
             <div className="Header">
                 <Logo></Logo>
+               
                 <div className="Search">
                     <Search></Search>
-                    
+                   
                 </div>
                 <Link to="/signup" id="signup">Register</Link>
-                <div>
-                  
-                </div>
             </div>
         )
     }
