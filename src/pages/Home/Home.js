@@ -5,6 +5,7 @@ import All from '../categories/All';
 import CreativeArt from '../categories/creativeArt';
 import Music from '../categories/Music';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import SignUp from '../../components/SignUp/SignUp';
 
 
 class Home extends React.Component {
@@ -35,6 +36,11 @@ class Home extends React.Component {
                         <Switch>
                             <Route path="/music">
                                 <Music/>
+                            </Route>
+                        </Switch>
+                        <Switch>
+                            <Route path="/signup">
+                                <SignUp />
                             </Route>
                         </Switch>
                     </Router>
